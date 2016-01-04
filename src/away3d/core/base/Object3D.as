@@ -146,7 +146,7 @@ package away3d.core.base
 					_listenToRotationChanged = true;
 					break;
 				case Object3DEvent.SCALE_CHANGED:
-					_listenToRotationChanged = true;
+					_listenToScaleChanged = true;
 					break;
 			}
 		}
